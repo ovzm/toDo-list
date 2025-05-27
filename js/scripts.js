@@ -77,15 +77,10 @@ document.addEventListener("click", (e) => {
 
   if (targetEl.classList.contains("finish-todo")) {
     parentEl.classList.toggle("done");
-
-    updateTodoStatusLocalStorage(todoTitle);
   }
 
   if (targetEl.classList.contains("remove-todo")) {
     parentEl.remove();
-
-    // Utilizando dados da localStorage
-    removeTodoLocalStorage(todoTitle);
   }
 
   if (targetEl.classList.contains("edit-todo")) {
