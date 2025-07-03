@@ -60,4 +60,6 @@ Este projeto aplica vários conceitos essenciais de JavaScript:
 
 ## Demonstração
 
-
+<div align="center">
+  <img src="./img/readMe/toDoList.gif" alt="Demonstração do projeto" width="500" heigth="500"/>
+</div>
